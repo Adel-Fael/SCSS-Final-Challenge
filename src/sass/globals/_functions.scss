@@ -1,0 +1,12 @@
+@use "./colors" as *;
+@use "./typography" as *;
+
+:root {
+  @each $clr, $value in $colors {
+    --clr-#{$clr}: #{$value};
+  }
+
+  @each $size, $nb in $fs {
+    --fs-#{$size}: #{$nb};
+  }
+}

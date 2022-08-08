@@ -1,0 +1,37 @@
+
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.btn-left {
+  margin: 0 0 0 2rem;
+}
+.nav-btn {
+  background-color: var(--clr-accent-200);
+  padding: .25em .75em;
+  border-radius: 100px;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+  opacity: 0.75;
+}
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.45;
+  // color: white;
+}
+
+.hero-btn {
+  background-color: var(--clr-accent-200);
+  color: var(--clr-white);
+  padding: .25em .75em;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  opacity: 0.75;
+}

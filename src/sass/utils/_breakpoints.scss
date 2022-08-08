@@ -1,0 +1,22 @@
+@use "functions" as f;
+
+// ! use functions to convert
+
+
+$breakpoints-up: (
+  // ? 1em = 16px same as base font size
+  // ? 700÷16 = 43.75em
+  "medium": f.em(700),
+  // ? 1000÷16 = 62.5em
+  "large": f.em(1000),
+
+);
+
+//* u for up
+@mixin breakpoint-u($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+

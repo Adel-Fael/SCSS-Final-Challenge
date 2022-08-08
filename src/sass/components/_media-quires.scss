@@ -1,0 +1,16 @@
+@use '../utils' as u;
+
+
+@include u.breakpoint-u(medium) {
+
+  .nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  .navbar {
+
+    padding: .5em 5em;
+  }
+
+}

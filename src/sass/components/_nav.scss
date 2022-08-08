@@ -1,0 +1,25 @@
+@use '../utils' as u;
+
+.logo {
+  height: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-nav);
+  text-transform: uppercase;
+  padding: .5em .7em;
+}
+
+.nav-list {
+  display: none;
+}
+
+
+
+.nav-link {
+
+  color: var(--clr-gray);
+}
