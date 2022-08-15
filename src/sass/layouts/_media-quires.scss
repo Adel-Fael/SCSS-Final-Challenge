@@ -12,6 +12,10 @@
     margin: 1em;
     gap: 2em;
   }
+
+  .menu {
+    display: none;
+  }
 }
 
 @include u.breakpoint-u(large) {
