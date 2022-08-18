@@ -1,9 +1,19 @@
-# Scss-Final-Challenge
- README for more info
+## Scss-Final-Challenge
 
-## in the terminal run 
+
+- check it out:
+https://conquering-responsive-layouts-scss.netlify.app/
+
+![preview img](/preview.png)
+
+
+To get started with the project 
+- In the terminal run 
 ```
 npm intsall
 
 npm start
 ```
+
+- Here the compiles css:
+https://github.com/Adel-Fael/SCSS-compiled-css
