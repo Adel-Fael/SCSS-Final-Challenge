@@ -15,5 +15,5 @@ npm intsall
 npm start
 ```
 
-- Here the compiles css:
+- Here the compiled CSS:
 https://github.com/Adel-Fael/SCSS-compiled-css
